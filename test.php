@@ -1,4 +1,3 @@
-Table forum_question
 CREATE TABLE `forum_question` (
 `id` int(4) NOT NULL auto_increment,
 `topic` varchar(255) NOT NULL default '',
@@ -12,8 +11,6 @@ PRIMARY KEY (`id`)
 ) TYPE=MyISAM AUTO_INCREMENT=1 ;
 
  
-
-Table forum_answer
 CREATE TABLE `forum_answer` (
 `question_id` int(4) NOT NULL default '0',
 `a_id` int(4) NOT NULL default '0',
